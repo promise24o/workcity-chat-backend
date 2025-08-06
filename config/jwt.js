@@ -1,4 +1,4 @@
 module.exports = {
-    secret: process.env.JWT_SECRET,
-    expiresIn: '1d', // Token expires in 1 day
+    secret: process.env.JWT_SECRET || 'SECRET_KEY',
+    expiresIn: '1d',
   };
