@@ -1,10 +1,15 @@
 {
   "name": "workcity-chat-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend for real-time chat system for an eCommerce platform",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promise24o/workcity-chat-backend.git"
   },
   "keywords": [],
   "author": "",
